@@ -91,11 +91,15 @@ nav a {
 .banner-heading {
   font-size: 85px;
   font-weight: 700;
-  margin-top: 5px;
+  margin-top: 0px;
   margin-bottom: 20px;
 }
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about {
@@ -103,4 +107,12 @@ nav a {
   background-color: #fff8f3;
   border-radius: 10px;
   margin: 130px 0;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
